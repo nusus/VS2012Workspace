@@ -19,10 +19,12 @@ struct CTreeNode {
 template <typename T>
 CTreeNode<T>* InitTree(const vector<T>& vValues){
 	assert(!vValues.empty());
-
+	CTreeNode<T>* root = new CTreeNode<T>(vValues[0]);
+	for_each(vValues.begin()+1,vValues.end(),InsertValToTree<T>);
 }
 template<typename T>
 void InsertValToTree(CTreeNode<T>* root,const T& val){
+	assert(root!=NULL);
 	if(val<root->value){
 		if(root->left==NULL){
 			CTreeNode<T> pLeftNode = new CTreeNode<T>(val);
