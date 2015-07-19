@@ -64,8 +64,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="delete_node_in_a_linked_list.h" />
     <ClInclude Include="kth_smallest_element_in_a_BST.h" />
+    <ClInclude Include="merge_k_sorted_lists.h" />
+    <ClInclude Include="merge_two_sorted_lists.h" />
+    <ClInclude Include="reverse_nodes_in_k-Group.h" />
+    <ClInclude Include="sort_list.h" />
     <ClInclude Include="utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

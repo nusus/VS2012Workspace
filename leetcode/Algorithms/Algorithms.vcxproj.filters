@@ -21,5 +21,25 @@
     <ClInclude Include="kth_smallest_element_in_a_BST.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="sort_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_two_sorted_lists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merge_k_sorted_lists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reverse_nodes_in_k-Group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="delete_node_in_a_linked_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
