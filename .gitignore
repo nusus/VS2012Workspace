@@ -77,3 +77,11 @@ $RECYCLE.BIN/
 #Visual Studio automatic generated files
 *.sdf
 *.opensdf
+*.tlog
+*.tlog
+*.pdb
+*.ilk
+*.pdb
+*.log
+*.log
+*.idb

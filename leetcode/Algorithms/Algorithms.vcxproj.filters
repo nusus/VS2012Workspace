@@ -36,6 +36,45 @@
     <ClInclude Include="delete_node_in_a_linked_list.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="4Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="k_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="remove_linked_list_elements.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="convert_sorted_list_to_binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rotate_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reorder_list .h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="word_break.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="word_break_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="find_all_path.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_paths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_paths_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minimum_path_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

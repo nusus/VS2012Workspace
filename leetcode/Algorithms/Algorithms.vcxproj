@@ -64,13 +64,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="3Sum.h" />
+    <ClInclude Include="4Sum.h" />
+    <ClInclude Include="convert_sorted_list_to_binary_search_tree.h" />
     <ClInclude Include="delete_node_in_a_linked_list.h" />
+    <ClInclude Include="find_all_path.h" />
     <ClInclude Include="kth_smallest_element_in_a_BST.h" />
+    <ClInclude Include="k_sum.h" />
     <ClInclude Include="merge_k_sorted_lists.h" />
     <ClInclude Include="merge_two_sorted_lists.h" />
+    <ClInclude Include="minimum_path_sum.h" />
+    <ClInclude Include="remove_linked_list_elements.h" />
+    <ClInclude Include="reorder_list .h" />
     <ClInclude Include="reverse_nodes_in_k-Group.h" />
+    <ClInclude Include="rotate_list.h" />
     <ClInclude Include="sort_list.h" />
+    <ClInclude Include="unique_paths.h" />
+    <ClInclude Include="unique_paths_II.h" />
     <ClInclude Include="utility.h" />
+    <ClInclude Include="word_break.h" />
+    <ClInclude Include="word_break_II.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
