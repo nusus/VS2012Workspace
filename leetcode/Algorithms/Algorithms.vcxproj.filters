@@ -75,6 +75,51 @@
     <ClInclude Include="3Sum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maximum_subarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_search_position.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="longest_palindromic_substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zig_zag_conversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="string_to_integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="replace_blank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="print_n_number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="best_time_to_buy_and_sell_stock_III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="palindrome_number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize_and_deserialize_binary_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="count_and_say.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="construct_binary_tree_from_inorder_and_postorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="construct_binary_tree_from_preorder_and_inorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="contains_duplicate_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

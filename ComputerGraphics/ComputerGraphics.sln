@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter2", "chapter2\chapter2.vcxproj", "{3F6D0994-9254-48FA-8A33-906399F2CE31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DFoundationOfMathematics", "3DFoundationOfMathematics\3DFoundationOfMathematics.vcxproj", "{FD714CBB-38D3-4CD5-B445-205A145AC4BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RealTimeCollisionDetectionAlgorithm", "RealTimeCollisionDetectionAlgorithm\RealTimeCollisionDetectionAlgorithm.vcxproj", "{8FFD6CA5-CADA-4365-B72D-B3EA4ED15A9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F6D0994-9254-48FA-8A33-906399F2CE31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F6D0994-9254-48FA-8A33-906399F2CE31}.Debug|Win32.Build.0 = Debug|Win32
+		{3F6D0994-9254-48FA-8A33-906399F2CE31}.Release|Win32.ActiveCfg = Release|Win32
+		{3F6D0994-9254-48FA-8A33-906399F2CE31}.Release|Win32.Build.0 = Release|Win32
+		{FD714CBB-38D3-4CD5-B445-205A145AC4BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD714CBB-38D3-4CD5-B445-205A145AC4BF}.Debug|Win32.Build.0 = Debug|Win32
+		{FD714CBB-38D3-4CD5-B445-205A145AC4BF}.Release|Win32.ActiveCfg = Release|Win32
+		{FD714CBB-38D3-4CD5-B445-205A145AC4BF}.Release|Win32.Build.0 = Release|Win32
+		{8FFD6CA5-CADA-4365-B72D-B3EA4ED15A9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8FFD6CA5-CADA-4365-B72D-B3EA4ED15A9B}.Debug|Win32.Build.0 = Debug|Win32
+		{8FFD6CA5-CADA-4365-B72D-B3EA4ED15A9B}.Release|Win32.ActiveCfg = Release|Win32
+		{8FFD6CA5-CADA-4365-B72D-B3EA4ED15A9B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
