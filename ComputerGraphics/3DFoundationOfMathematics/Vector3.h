@@ -1,16 +1,16 @@
 /********************************************************************
 	created:	2015/11/01
 	created:	1:11:2015   22:27
-	filename: 	F:\VSWorkspace\VS2012Workspace\ComputerGraphics\3DFoundationOfMathematics\Vector3.h
+	filename: 	F:\VSWorkspace\VS2012Workspace\ComputerGraphics\3DFoundationOfMathematics\CVector3.h
 	file path:	F:\VSWorkspace\VS2012Workspace\ComputerGraphics\3DFoundationOfMathematics
-	file base:	Vector3
+	file base:	CVector3
 	file ext:	h
 	author:		zengli
 	
 	purpose:	
 *********************************************************************/
-#ifndef Vector3_h__
-#define Vector3_h__
+#ifndef CVector3_h__
+#define CVector3_h__
 
 #include <cfloat>
 
@@ -27,134 +27,134 @@ namespace tdfom {
 	//************************************
 	float CarmackSqrt(float number);
 
-	class Vector3
+	class CVector3
 	{
 	public:
-		float x_, y_, z_;
+		float m_fX, m_fY, m_fZ;
 	public:
-		Vector3() {}
-		Vector3(const Vector3& rhs) :
-			x_(rhs.x_),
-			y_(rhs.y_),
-			z_(rhs.z_) {}
-		Vector3(float x, float y, float z) :
-			x_(x),
-			y_(y),
-			z_(z) {}
+		CVector3() {}
+		CVector3(const CVector3& rhs) :
+			m_fX(rhs.m_fX),
+			m_fY(rhs.m_fY),
+			m_fZ(rhs.m_fZ) {}
+		CVector3(float x, float y, float z) :
+			m_fX(x),
+			m_fY(y),
+			m_fZ(z) {}
 
-		~Vector3();
+		~CVector3();
 
 
-		Vector3& operator=(const Vector3& rhs) {
-			x_ = rhs.x_;
-			y_ = rhs.y_;
-			z_ = rhs.z_;
+		CVector3& operator=(const CVector3& rhs) {
+			m_fX = rhs.m_fX;
+			m_fY = rhs.m_fY;
+			m_fZ = rhs.m_fZ;
 			return *this;
 		}
 
-		bool operator == (const Vector3& rhs) const {
-			return (x_ == rhs.x_) && (y_ == rhs.y_) && (z_ == rhs.z_);
+		bool operator == (const CVector3& rhs) const {
+			return (m_fX == rhs.m_fX) && (m_fY == rhs.m_fY) && (m_fZ == rhs.m_fZ);
 		}
-		bool operator!=(const Vector3& rhs) const {
-			return x_ != rhs.x_ || y_ != rhs.y_ || z_ != rhs.z_;
+		bool operator!=(const CVector3& rhs) const {
+			return m_fX != rhs.m_fX || m_fY != rhs.m_fY || m_fZ != rhs.m_fZ;
 		}
 
 		void Zero() {
-			x_ = y_ = z_ = 0.0f;
+			m_fX = m_fY = m_fZ = 0.0f;
 		}
 
-		Vector3 operator - () const {
-			return Vector3(-x_, -y_, -z_);
+		CVector3 operator - () const {
+			return CVector3(-m_fX, -m_fY, -m_fZ);
 		}
 
-		Vector3 operator+(const Vector3& rhs) const {
-			return Vector3(x_ + rhs.x_, y_ + rhs.y_, z_ + rhs.z_);
+		CVector3 operator+(const CVector3& rhs) const {
+			return CVector3(m_fX + rhs.m_fX, m_fY + rhs.m_fY, m_fZ + rhs.m_fZ);
 		}
 
 
-		Vector3 operator-(const Vector3& rhs) const {
-			return Vector3(x_ - rhs.x_, y_ - rhs.y_, z_ - rhs.z_);
+		CVector3 operator-(const CVector3& rhs) const {
+			return CVector3(m_fX - rhs.m_fX, m_fY - rhs.m_fY, m_fZ - rhs.m_fZ);
 		}
 
-		Vector3 operator*(float a) const {
-			return Vector3(x_ * a, y_ * a, z_ * a);
+		CVector3 operator*(float a) const {
+			return CVector3(m_fX * a, m_fY * a, m_fZ * a);
 		}
 
-		Vector3 operator/(float a) const {
+		CVector3 operator/(float a) const {
 			float one_over_a = 1.0f / a;
-			return Vector3(x_ * one_over_a, y_ * one_over_a, z_ * one_over_a);
+			return CVector3(m_fX * one_over_a, m_fY * one_over_a, m_fZ * one_over_a);
 		}
 
-		Vector3& operator+=(const Vector3& rhs) {
-			x_ += rhs.x_;
-			y_ += rhs.y_;
-			z_ += rhs.z_;
+		CVector3& operator+=(const CVector3& rhs) {
+			m_fX += rhs.m_fX;
+			m_fY += rhs.m_fY;
+			m_fZ += rhs.m_fZ;
 			return *this;
 		}
 
-		Vector3& operator-=(const Vector3& rhs) {
-			x_ -= rhs.x_;
-			y_ -= rhs.y_;
-			z_ -= rhs.z_;
+		CVector3& operator-=(const CVector3& rhs) {
+			m_fX -= rhs.m_fX;
+			m_fY -= rhs.m_fY;
+			m_fZ -= rhs.m_fZ;
 			return *this;
 		}
 
-		Vector3& operator *=(float a) {
-			x_ *= a;
-			y_ *= a;
-			z_ *= a;
+		CVector3& operator *=(float a) {
+			m_fX *= a;
+			m_fY *= a;
+			m_fZ *= a;
 			return *this;
 		}
 
-		Vector3& operator/=(float a) {
+		CVector3& operator/=(float a) {
 			float one_over_a = 1.0f / a;
-			x_ *= one_over_a;
-			y_ *= one_over_a;
-			z_ *= one_over_a;
+			m_fX *= one_over_a;
+			m_fY *= one_over_a;
+			m_fZ *= one_over_a;
 			return *this;
 		}
 
 		void Normalize() {
-			float sq = x_ * x_ + y_ * y_ + z_ *z_;
+			float sq = m_fX * m_fX + m_fY * m_fY + m_fZ *m_fZ;
 			if (sq > 0.00f) {
 				float one_over_sq = 1.0f / tdfom::CarmackSqrt(sq);
-				x_ *= one_over_sq;
-				y_ *= one_over_sq;
-				z_ *= one_over_sq;
+				m_fX *= one_over_sq;
+				m_fY *= one_over_sq;
+				m_fZ *= one_over_sq;
 			}
 		}
 
-		float operator*(const Vector3& rhs) const {
-			return x_ * rhs.x_ + y_ * rhs.y_ + z_ * rhs.z_;
+		float operator*(const CVector3& rhs) const {
+			return m_fX * rhs.m_fX + m_fY * rhs.m_fY + m_fZ * rhs.m_fZ;
 		}
 	private:
 
 	};
 
-	inline float VectorMag(const Vector3& rhs) {
-		return rhs.x_ * rhs.x_ + rhs.y_ * rhs.y_ + rhs.z_ * rhs.z_;
+	inline float VectorMag(const CVector3& rhs) {
+		return rhs.m_fX * rhs.m_fX + rhs.m_fY * rhs.m_fY + rhs.m_fZ * rhs.m_fZ;
 	}
 
-	inline Vector3 CrossProduct(const Vector3& lhs, const Vector3& rhs) {
-		return Vector3(
-			lhs.y_ * rhs.z_ - lhs.z_ * rhs.y_,
-			lhs.z_ * rhs.x_ - lhs.x_ * rhs.z_,
-			lhs.x_ * rhs.y_ - lhs.y_ * rhs.x_
+	inline CVector3 CrossProduct(const CVector3& lhs, const CVector3& rhs) {
+		return CVector3(
+			lhs.m_fY * rhs.m_fZ - lhs.m_fZ * rhs.m_fY,
+			lhs.m_fZ * rhs.m_fX - lhs.m_fX * rhs.m_fZ,
+			lhs.m_fX * rhs.m_fY - lhs.m_fY * rhs.m_fX
 			);
 	}
 
-	inline Vector3 operator*(float k, const Vector3& rhs) {
-		return Vector3(
-			rhs.x_ * k,
-			rhs.y_ * k,
-			rhs.z_ * k
+	inline CVector3 operator*(float k, const CVector3& rhs) {
+		return CVector3(
+			rhs.m_fX * k,
+			rhs.m_fY * k,
+			rhs.m_fZ * k
 			);
 	}
 
-	inline float Distance(const Vector3& lhs, const Vector3& rhs) {
-		float x = lhs.x_ - rhs.x_;
-		float y = lhs.y_ - rhs.y_;
-		float z = lhs.z_ - rhs.z_;
+	inline float Distance(const CVector3& lhs, const CVector3& rhs) {
+		float x = lhs.m_fX - rhs.m_fX;
+		float y = lhs.m_fY - rhs.m_fY;
+		float z = lhs.m_fZ - rhs.m_fZ;
 		return CarmackSqrt(x*x + y*y + z*z);
 	}
 
@@ -172,6 +172,6 @@ namespace tdfom {
 		return number * y;
 	}
 
-	extern const Vector3 kZeroVector;
+	extern const CVector3 kZeroVector;
 }
-#endif // Vector3_h__
+#endif // CVector3_h__

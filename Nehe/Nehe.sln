@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson01", "Lesson01\Lesson01.vcxproj", "{47EBB7AF-9879-403C-AFB9-97ACEA801D0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson02", "Lesson02\Lesson02.vcxproj", "{CD93BDF2-3735-4172-86F1-945E7195A464}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson03", "Lesson03\Lesson03.vcxproj", "{B9A2E17B-2EE0-4F08-B0C8-CB0BE56F3641}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson05", "Lesson05\Lesson05.vcxproj", "{64E6DF8E-EF57-4E90-B672-EB882AE40023}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson06", "Lesson06\Lesson06.vcxproj", "{464C2104-E799-4C68-8AA8-2DD60E6785D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson07", "Lesson07\Lesson07.vcxproj", "{4B600D50-E328-4AB6-B430-1353439BA6BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson08", "Lesson08\Lesson08.vcxproj", "{F12AAC1E-0213-483A-808C-3D606250C53D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson09", "Lesson09\Lesson09.vcxproj", "{83C2BAA6-83B9-4099-BAB5-9E237DE52C0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47EBB7AF-9879-403C-AFB9-97ACEA801D0E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47EBB7AF-9879-403C-AFB9-97ACEA801D0E}.Debug|Win32.Build.0 = Debug|Win32
+		{47EBB7AF-9879-403C-AFB9-97ACEA801D0E}.Release|Win32.ActiveCfg = Release|Win32
+		{47EBB7AF-9879-403C-AFB9-97ACEA801D0E}.Release|Win32.Build.0 = Release|Win32
+		{CD93BDF2-3735-4172-86F1-945E7195A464}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD93BDF2-3735-4172-86F1-945E7195A464}.Debug|Win32.Build.0 = Debug|Win32
+		{CD93BDF2-3735-4172-86F1-945E7195A464}.Release|Win32.ActiveCfg = Release|Win32
+		{CD93BDF2-3735-4172-86F1-945E7195A464}.Release|Win32.Build.0 = Release|Win32
+		{B9A2E17B-2EE0-4F08-B0C8-CB0BE56F3641}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9A2E17B-2EE0-4F08-B0C8-CB0BE56F3641}.Debug|Win32.Build.0 = Debug|Win32
+		{B9A2E17B-2EE0-4F08-B0C8-CB0BE56F3641}.Release|Win32.ActiveCfg = Release|Win32
+		{B9A2E17B-2EE0-4F08-B0C8-CB0BE56F3641}.Release|Win32.Build.0 = Release|Win32
+		{64E6DF8E-EF57-4E90-B672-EB882AE40023}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64E6DF8E-EF57-4E90-B672-EB882AE40023}.Debug|Win32.Build.0 = Debug|Win32
+		{64E6DF8E-EF57-4E90-B672-EB882AE40023}.Release|Win32.ActiveCfg = Release|Win32
+		{64E6DF8E-EF57-4E90-B672-EB882AE40023}.Release|Win32.Build.0 = Release|Win32
+		{464C2104-E799-4C68-8AA8-2DD60E6785D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{464C2104-E799-4C68-8AA8-2DD60E6785D2}.Debug|Win32.Build.0 = Debug|Win32
+		{464C2104-E799-4C68-8AA8-2DD60E6785D2}.Release|Win32.ActiveCfg = Release|Win32
+		{464C2104-E799-4C68-8AA8-2DD60E6785D2}.Release|Win32.Build.0 = Release|Win32
+		{4B600D50-E328-4AB6-B430-1353439BA6BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B600D50-E328-4AB6-B430-1353439BA6BA}.Debug|Win32.Build.0 = Debug|Win32
+		{4B600D50-E328-4AB6-B430-1353439BA6BA}.Release|Win32.ActiveCfg = Release|Win32
+		{4B600D50-E328-4AB6-B430-1353439BA6BA}.Release|Win32.Build.0 = Release|Win32
+		{F12AAC1E-0213-483A-808C-3D606250C53D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F12AAC1E-0213-483A-808C-3D606250C53D}.Debug|Win32.Build.0 = Debug|Win32
+		{F12AAC1E-0213-483A-808C-3D606250C53D}.Release|Win32.ActiveCfg = Release|Win32
+		{F12AAC1E-0213-483A-808C-3D606250C53D}.Release|Win32.Build.0 = Release|Win32
+		{83C2BAA6-83B9-4099-BAB5-9E237DE52C0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83C2BAA6-83B9-4099-BAB5-9E237DE52C0B}.Debug|Win32.Build.0 = Debug|Win32
+		{83C2BAA6-83B9-4099-BAB5-9E237DE52C0B}.Release|Win32.ActiveCfg = Release|Win32
+		{83C2BAA6-83B9-4099-BAB5-9E237DE52C0B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -3,7 +3,7 @@
 #include "math_util.h"
 #include "Vector3.h"
 
-const tdfom::Vector3 kZeroVector(0.0f, 0.0f, 0.0f);
+const tdfom::CVector3 kZeroVector(0.0f, 0.0f, 0.0f);
 
 extern float tdfom::WrapPI( float theta )
 {

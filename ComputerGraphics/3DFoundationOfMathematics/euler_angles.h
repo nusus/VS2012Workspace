@@ -3,37 +3,62 @@
 
 namespace tdfom
 {
-	class Quaternion;
-	class Matrix4x3;
-	class RotationMatrix;
-	class EulerAngles
+	class CQuaternion;
+	class CMatrix4x3;
+	class CRotationMatrix;
+	class CEulerAngles
 	{
 	public:
-		float heading_;
-		float pitch_;
-		float bank_;
+		float m_fHeading;
+		float m_fPitch;
+		float m_fBank;
 	public:
-		EulerAngles(){}
+		CEulerAngles(){}
 
-		EulerAngles(float h, float p, float b):
-			heading_(h),
-			pitch_(p),
-			bank_(b){}
+		CEulerAngles(float h, float p, float b):
+			m_fHeading(h),
+			m_fPitch(p),
+			m_fBank(b){}
 
+		//************************************
+		// Description:reset to zero
+		// Method:    Identity
+		// FullName:  tdfom::CEulerAngles::Identity
+		// Access:    public 
+		// Returns:   void
+		// Qualifier:
+		//************************************
 		void Identity(){
-			heading_ = pitch_ = bank_ = 0.0f;
+			m_fHeading = m_fPitch = m_fBank = 0.0f;
 		}
 
+		//************************************
+		// Description:变换为“限制集”的欧拉角
+		// Method:    Canonize
+		// FullName:  tdfom::CEulerAngles::Canonize
+		// Access:    public 
+		// Returns:   void
+		// Qualifier:
+		//************************************
 		void Canonize();
 
-		void FromObjectToInertialQuaternion(const Quaternion& q);
-		void FromInertialToObjectQuaternion(const Quaternion& q);
+		//************************************
+		// Description:
+		// Method:    FromObjectToInertialQuaternion
+		// FullName:  tdfom::CEulerAngles::FromObjectToInertialQuaternion
+		// Access:    public 
+		// Returns:   void
+		// Qualifier:
+		// Parameter: const CQuaternion & q
+		//************************************
+		void FromObjectToInertialQuaternion(const CQuaternion& q);
+		void FromInertialToObjectQuaternion(const CQuaternion& q);
 
-		void FromObjectToWorldMatrix(const Matrix4x3& m);
-		void FromWorldToObjectMatrix(const Matrix4x3& m);
+		void FromObjectToWorldMatrix(const CMatrix4x3& m);
+		void FromWorldToObjectMatrix(const CMatrix4x3& m);
 
-		void FromRotationMatrix(const RotationMatrix& rm);
+		void FromRotationMatrix(const CRotationMatrix& rm);
 	};
-	extern const EulerAngles g_kEulerAnglesIdentity;
+	extern const CEulerAngles g_kEulerAnglesIdentity;
 }
 #endif // euler_angles_h__

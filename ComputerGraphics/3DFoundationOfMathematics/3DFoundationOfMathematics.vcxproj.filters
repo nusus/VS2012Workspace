@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vector3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="math_util.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -33,6 +30,9 @@
     <ClInclude Include="rotation_matrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="math_util.cpp">
@@ -41,8 +41,11 @@
     <ClCompile Include="euler_angles.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="quaternion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rotation_matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

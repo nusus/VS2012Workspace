@@ -78,11 +78,13 @@
     <ClInclude Include="kth_smallest_element_in_a_BST.h" />
     <ClInclude Include="k_sum.h" />
     <ClInclude Include="longest_palindromic_substring.h" />
+    <ClInclude Include="majority_element.h" />
     <ClInclude Include="maximum_subarray.h" />
     <ClInclude Include="merge_k_sorted_lists.h" />
     <ClInclude Include="merge_two_sorted_lists.h" />
     <ClInclude Include="minimum_path_sum.h" />
     <ClInclude Include="palindrome_number.h" />
+    <ClInclude Include="pow_x_n.h" />
     <ClInclude Include="print_n_number.h" />
     <ClInclude Include="remove_linked_list_elements.h" />
     <ClInclude Include="reorder_list .h" />
