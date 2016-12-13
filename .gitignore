@@ -86,3 +86,5 @@ $RECYCLE.BIN/
 *.log
 *.idb
 *.log
+*.db
+/CppTMP/.vs/CppTMP/v14
